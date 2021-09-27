@@ -15,7 +15,7 @@ public class WikiTest extends BaseTest {
         xmlLink.click();
 
 
-        WebElement searchInput = webDriver.findElement(By.cssSelector("input#search Input"));
+        WebElement searchInput = webDriver.findElement(By.cssSelector("input#searchInput"));
         searchInput.sendKeys("selenium");
         searchInput.submit();
 
